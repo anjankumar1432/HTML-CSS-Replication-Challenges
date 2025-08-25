@@ -1,0 +1,57 @@
+.navbar {
+    background-color:rgb(12, 12, 139); 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .logo {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-right: 40px;
+  }
+  .logo .byte {
+    color: skyblue; 
+  }
+  .logo .xl {
+    font-size: 14px;
+    color: orange;
+    vertical-align: super;
+  }
+  .logo .five {
+    color: green;
+    font-weight: bold;
+    font-size: 28px;
+    vertical-align: middle;
+  }
+  .links {
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+  }
+  .links a {
+    color: white;
+    font-size: 18px;
+  }
+  .search-container {
+    display: flex;
+  }
+  .search-container input[type="text"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 16px;
+  }
+  .search-container button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    font-size: 16px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background-color: whitesmoke;
+  }
+ 
